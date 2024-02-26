@@ -1158,7 +1158,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/NordicSemiconductor/IOS-DFU-Library.git";
 			requirement = {
-				branch = main;
+				branch = ff42c255eb9a7edae8911dcce318477a8fcae1ab;
 				kind = branch;
 			};
 		};
