@@ -33,7 +33,7 @@ jobs:
         run: |
           xcodebuild archive \
             -project InfiniLink.xcodeproj \
-            -scheme InifiLink \
+            -scheme InfiniLink \
             -archivePath unsigned.xcarchive \
             -configuration Release \
             -sdk iphoneos \
