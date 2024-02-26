@@ -47,13 +47,17 @@ jobs:
 
       - name: make ipa
         run: |
-          find ./
+          find .
+          mv ./unsigned.xcarchive/Products/Applications ./unsigned.xcarchive/Products/Payload
+          zip -r infinitroll.zip ./unsigned.xcarchive/Products/Payload
+          mv infinitroll.zip infinitroll.ipa
+          find .
 
       - name: Upload application
         uses: actions/upload-artifact@v3
         with:
           name: app
-          path: ${{ runner.temp }}/build/I\ am\ Groot.ipa
+          path: ${{ runner.temp }}/infinitroll.ipa
           # you can also archive the entire directory 
           # path: ${{ runner.temp }}/build
           retention-days: 3
