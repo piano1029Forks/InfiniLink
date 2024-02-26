@@ -48,8 +48,8 @@ jobs:
       - name: make ipa
         run: |
           find .
-          mv ./unsigned.xcarchive/Products/Applications ./unsigned.xcarchive/Products/Payload
-          zip -r infinitroll.zip ./unsigned.xcarchive/Products/Payload
+          mv ./unsigned.xcarchive/Products/Applications ./Payload
+          zip -r infinitroll.zip ./Payload
           mv infinitroll.zip infinitroll.ipa
           find .
 
