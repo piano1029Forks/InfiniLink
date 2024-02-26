@@ -57,7 +57,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: app
-          path: ${{ runner.temp }}/infinitroll.ipa
-          # you can also archive the entire directory 
-          # path: ${{ runner.temp }}/build
+          path: infinitroll.ipa
           retention-days: 3
