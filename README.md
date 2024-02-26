@@ -16,6 +16,8 @@
 
 # InfiniLink - The official iOS companion app for InfiniTime
 
+## Modified to run as a background app through Trollstore
+
 This iOS application allows you to interact with your PineTime smartwatch running [InfiniTime](https://github.com/InfiniTimeOrg/InfiniTime) (and perhaps other watches/OSes, pending testing).
 
 </div>
